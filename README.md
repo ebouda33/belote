@@ -1,11 +1,18 @@
 # belote
 jeux de belote en ext js 6
 
+deux projets en un.
+
+la partie client dans MyBelote et le serveur sur WebSocket basé sur un autre projet http://jitt.li
+
 basé sur PHP 5.6 pour le websocket
+
 
 Etat Distribution et melange des cartes
 
 Aucune intelligence artificielle pour le moment
+
+Attention les ip sont en dur pour se connecter 127.0.0.1 pour le client web et le serveur
 
 TODO
 
