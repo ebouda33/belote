@@ -14,11 +14,10 @@ Ext.define('MyBelote.Application', {
     requires : ['Ext.fx.Anim','MyBelote.window.Popup'],
     
     init: function(application){
-    	application.ws = new MyBelote.Object.Websocket('10.184.49.142');
+    	application.ws = new MyBelote.Object.Websocket('127.0.0.1');
 //    	MyBelote.ws = new MyBelote.Object.Websocket('192.168.0.13');
-    	var pseudo;
     	Ext.Msg.prompt('Pseudo Pour vous connecter', 'Votre Pseudo:', function(btn, text){
-    	    if (btn == 'ok'){
+    	    if (btn === 'ok'){
     	    	application.ws.connect(text);
     	    }
     	});
