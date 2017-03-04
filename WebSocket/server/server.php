@@ -26,7 +26,8 @@ $config = array("ns"=>array(
 ));
 \Autoloader::register($config);
 
-$server = new \WebSocket\Server('10.184.49.142', 8000, false);
+//$server = new \WebSocket\Server('10.184.49.142', 8000, false);
+$server = new \WebSocket\Server('127.0.0.1', 8000, false);
 
 // $server = new \WebSocket\Server('192.168.0.13', 8000, false);
 
