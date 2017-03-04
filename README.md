@@ -18,6 +18,14 @@ TODO
 
 demarrer la donne, et terminé une partie a 4
 
+relancer une donne si tout le monde passe.
+
+Gerer les scores qui sont prise en compte par le serveur
+
+le serveur doit determiné le pli gagnant et renvoyé aux clients l info avec le score
+
+Le client doit juste gérer la ou les cartes qui ont le droit d etre joué.
+
 Enregistre la partie pour un replay
 
 Creer l AI
